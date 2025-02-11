@@ -1,0 +1,26 @@
+ _/_/_/       _/_/     _/    _/    _/_/_/   _/_/_/_/    _/_/_/  
+ _/    _/    _/  _/    _/_/_/_/   _/    _/  _/         _/    _/ 
+ _/    _/   _/    _/   _/ _/ _/   _/        _/         _/       
+ _/_/_/     _/_/_/_/   _/    _/     _/_/    _/_/_/       _/_/   
+ _/    _/   _/    _/   _/    _/         _/  _/               _/ 
+ _/    _/   _/    _/   _/    _/   _/    _/  _/         _/    _/ 
+ _/    _/   _/    _/   _/    _/    _/_/_/   _/_/_/_/    _/_/_/  
+                         Version 3.0                            
+        written by Romain Teyssier (Princeton University)       
+            (c) CEA 1999-2007, UZH 2008-2021, PU 2022           
+  
+ Working with nproc =     1 for ndim = 1
+ Using solver = hydro with nvar =  3
+  
+ compile date = 02/05/25-12:33:22
+ patch dir    = 
+ remote repo  = https://github.com/ramses-organisation/ramses
+ local branch = stable
+ last commit  = 95e9937d7e792ce0113faf8220cb959426b0450e
+  
+ Error in the namelist
+ Check boundary conditions along X direction           3
+ Error in the namelist
+ Check boundary conditions along X direction           4
+ Too many errors in the namelist
+ Aborting...
