@@ -1,0 +1,80 @@
+ _/_/_/       _/_/     _/    _/    _/_/_/   _/_/_/_/    _/_/_/  
+ _/    _/    _/  _/    _/_/_/_/   _/    _/  _/         _/    _/ 
+ _/    _/   _/    _/   _/ _/ _/   _/        _/         _/       
+ _/_/_/     _/_/_/_/   _/    _/     _/_/    _/_/_/       _/_/   
+ _/    _/   _/    _/   _/    _/         _/  _/               _/ 
+ _/    _/   _/    _/   _/    _/   _/    _/  _/         _/    _/ 
+ _/    _/   _/    _/   _/    _/    _/_/_/   _/_/_/_/    _/_/_/  
+                         Version 3.0                            
+        written by Romain Teyssier (Princeton University)       
+            (c) CEA 1999-2007, UZH 2008-2021, PU 2022           
+  
+ Working with nproc =     2 for ndim = 1
+ Using solver = hydro with nvar =  3
+  
+ compile date = 02/12/25-12:10:25
+ patch dir    = 
+ remote repo  = https://github.com/ramses-organisation/ramses
+ local branch = stable
+ last commit  = 95e9937d7e792ce0113faf8220cb959426b0450e
+  
+ Building initial AMR grid
+ Load balancing AMR grid...
+ Load balancing AMR grid...
+ Load balancing AMR grid...
+ Load balancing AMR grid...
+ Load balancing AMR grid...
+ Load balancing AMR grid...
+ Load balancing AMR grid...
+ Load balancing AMR grid...
+ Load balancing AMR grid...
+ Load balancing AMR grid...
+ Time elapsed since startup:   3.4387540000000000E-003
+ Initial mesh structure
+ Level  1 has          1 grids (       0,       1,       0,)
+ Level  2 has          2 grids (       1,       1,       1,)
+ Level  3 has          4 grids (       2,       2,       2,)
+ Starting time integration
+ Load balancing AMR grid...
+ Output     8 cells
+ ================================================
+ lev      x           d          u          P
+  3  4.67493E+09  1.329E+19  0.000E+00  9.493E-02
+  3  1.40248E+10  1.329E+19  0.000E+00  9.493E-02
+  3  2.33747E+10  1.329E+19  0.000E+00  9.493E-02
+  3  3.27245E+10  1.329E+19  0.000E+00  9.493E-02
+  3  4.20744E+10  1.329E+19  0.000E+00  9.493E-02
+  3  5.14243E+10  1.329E+19  0.000E+00  9.493E-02
+  3  6.07741E+10  1.329E+19  0.000E+00  9.493E-02
+  3  7.01240E+10  1.329E+19  0.000E+00  9.493E-02
+ ================================================
+ Fine step=      0 t= 0.00000E+00 dt= 7.480E+19 a= 1.000E+00 mem= 1.3% 
+ Output     8 cells
+ ================================================
+ lev      x           d          u          P
+  3  4.67493E+09  1.329E+19  0.000E+00  9.493E-02
+  3  1.40248E+10  1.329E+19  0.000E+00  9.493E-02
+  3  2.33747E+10  1.329E+19  0.000E+00  9.493E-02
+  3  3.27245E+10  1.329E+19  0.000E+00  9.493E-02
+  3  4.20744E+10  1.329E+19  0.000E+00  9.493E-02
+  3  5.14243E+10  1.329E+19  0.000E+00  9.493E-02
+  3  6.07741E+10  1.329E+19  0.000E+00  9.493E-02
+  3  7.01240E+10  1.329E+19  0.000E+00  9.493E-02
+ ================================================
+ Mesh structure
+ Level  1 has          1 grids (       0,       1,       0,)
+ Level  2 has          2 grids (       1,       1,       1,)
+ Level  3 has          4 grids (       2,       2,       2,)
+ Main step=      1 mcons= 0.00E+00 econs= 0.00E+00 epot= 0.00E+00 ekin= 1.87E+06
+ Fine step=      1 t= 7.47959E+19 dt= 7.480E+19 a= 1.000E+00 mem= 1.3% 
+ Run completed
+ Total elapsed time:   1.3231384000000002E-002
+ --------------------------------------------------------------------
+
+     minimum       average       maximum  standard dev        std/av       %   rmn   rmx  TIMER
+       0.000         0.000         0.000         0.000         0.235     0.5     1   2    coarse levels           
+       0.000         0.000         0.000         0.000         0.012     0.2     1   2    refine                  
+       0.000         0.000         0.000         0.000         0.002     0.7     2   1    load balance            
+       0.028         0.029         0.030         0.001         0.038    94.8     2   1    io                      
+       0.000         0.001         0.002         0.001         0.991     3.7     1   2    courant                 
+       0.030     100.0    TOTAL
