@@ -5,7 +5,7 @@ import numpy as np
 #file = open('nlevel3.txt', 'r') 	#download les data
 
 #hll
-df1 = pd.read_csv("hll.txt", delim_whitespace=True, skiprows=526, nrows = 64)
+df1 = pd.read_csv("hll.txt", delim_whitespace=True, skiprows=553, nrows = 63)
 
 df1_selection = df1.iloc[:, [1, 2, 3, 4]]		#selectionne les colonnes 2345
 print(df1_selection.head()) 
@@ -16,7 +16,7 @@ u1 = df1.iloc[:,3].values #velocity
 p1 = df1.iloc[:,4].values #pressure
 
 #hllc
-df2 = pd.read_csv("hllc.txt", delim_whitespace=True, skiprows=463, nrows=64) 	
+df2 = pd.read_csv("hllc.txt", delim_whitespace=True, skiprows=526, nrows=63) 	
 
 df2_selection = df2.iloc[:, [1, 2, 3, 4]]		#selectionne les colonnes 2345
 print(df2_selection.head()) 
@@ -27,7 +27,7 @@ u2 = df2.iloc[:,3].values #velocity
 p2 = df2.iloc[:,4].values #pressure
 
 #llf
-df3 = pd.read_csv("llf.1.txt", delim_whitespace=True, skiprows=11916, nrows=90) 	
+df3 = pd.read_csv("llf.txt", delim_whitespace=True, skiprows=532, nrows=63) 	
 
 df3_selection = df3.iloc[:, [1, 2, 3, 4]]		#selectionne les colonnes 2345
 print(df3_selection.head()) 
