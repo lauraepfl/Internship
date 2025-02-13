@@ -1,0 +1,4 @@
+From the graphs one can deduce :
+- density, pressure and velocity peaks go along x in time which is expected with and explosion
+- density peaks increase along x in time
+- pressure and velocity peaks decrease in time which is expected intuitively with deceleration and matter expansion

@@ -1,0 +1,3 @@
+By looking at the graphs one can see that nlevel = 3 is too imprecise and nlevel = 12 has too much data
+ that do not give more information. So with these parameters (check sedov1d.nml in namelist) nlevel 
+ between 6 and 9 seem to be the most conveninent.

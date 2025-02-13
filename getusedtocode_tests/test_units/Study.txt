@@ -1,0 +1,3 @@
+By comparing the two graphs, One can see that there is a big lack of data for the SI simulation. 
+This must be due to the lack of memory to manipulate such big numbers. 
+(The SI units data have been put back in AU in the graphs to compare these at the same scale)

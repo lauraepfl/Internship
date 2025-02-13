@@ -1,0 +1,2 @@
+From the graphs we can conlude that boxlenght = 10 is uselessly too big and unprecise
+and that boxlenght= 0.1 gives wierd results (must be due to the fact that x are placed at 0.1 as well approx)

@@ -1,0 +1,4 @@
+Not quite sure what to conlude from these graphs. 
+Initial velocity at 10 gives wierd graphs. Maybe they would need bigger x values.
+Initial pressure at 0 is pretty much the same as 1e-5.
+Initial density at 0.1 gives wierd results as well.
