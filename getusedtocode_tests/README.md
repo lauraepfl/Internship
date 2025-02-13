@@ -4,3 +4,5 @@ This folder is composed of different tests ran to get used to the fortran code. 
 - test_InitDUP is composed of tests of 1d simulations with different initial values of density, velocity and pressure.
 - test_boxlenght is a test with different boxlenght in the parameters
 - test_nlevel is a test with different number of cells in the simulation
+- test_solver compares the three available sovler algorithms that can be used
+- test_units compares graphs in IS units and in AU
